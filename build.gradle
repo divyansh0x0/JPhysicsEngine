@@ -1,0 +1,76 @@
+plugins {
+    id 'java'
+    id 'application'
+
+}
+
+group = 'org.divyansh'
+version = '1.0-SNAPSHOT'
+//applicationDefaultJvmArgs = ["-XX:+UseShenandoahGC","-XX:ShenandoahGCHeuristics=static", "-XX:+UnlockExperimentalVMOptions",  "-XX:ShenandoahUncommitDelay=500","-XX:ShenandoahGuaranteedGCInterval=2000", "-XX:ShenandoahGarbageThreshold=1"]
+mainClassName = 'physicsemulator.Main'
+compileJava.options.encoding = 'UTF-8'
+compileJava.sourceCompatibility = '16'
+compileJava.targetCompatibility = '16'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/gen/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+}
+
+
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+
+
+    /*Below libraries are used by Material Library*/
+    //Timing framework
+    implementation 'net.java.dev.timingframework:timingframework:1.0'
+    //Jetbrains annotations
+    implementation 'org.jetbrains:annotations:23.0.0'
+    //SLF4j
+    implementation 'org.slf4j:slf4j-simple:2.0.3'
+    //MIGLAYOUT
+    implementation 'com.miglayout:miglayout-swing:11.0'
+
+    //JhLabs filters
+    implementation 'com.jhlabs:filters:2.0.235-1'
+
+    //JNA
+    implementation 'net.java.dev.jna:jna:5.12.1'
+    implementation 'net.java.dev.jna:jna-platform:5.12.1'
+
+    //IKONLI
+    implementation 'org.kordamp.ikonli:ikonli-core:12.3.1'
+    implementation 'org.kordamp.ikonli:ikonli-fluentui-pack:12.3.1'
+    implementation 'org.kordamp.ikonli:ikonli-materialdesign2-pack:12.3.1'
+    implementation 'org.kordamp.ikonli:ikonli-swing:12.3.1'
+    implementation 'org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.3.1'
+    /*All libraries below are required by JTheme Detector by Dansoftware*/
+    //JFA
+    implementation ('de.jangassen:jfa:1.2.0') {
+        exclude group: 'net.java.dev.jna', module: 'jna' // different jna version
+    }
+
+    //OSHI
+    implementation 'com.github.oshi:oshi-core:5.8.6'
+
+    implementation 'io.github.g00fy2:versioncompare:1.4.1'
+}
+
+test {
+    useJUnitPlatform()
+}

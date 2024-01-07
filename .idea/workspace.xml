@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4719ff98-efe1-45dc-bd59-6daa7a7611b2" name="Changes" comment="First commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iProgram22&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="177e9f74-2302-4a3c-aab8-4192448579ee" />
+        <option name="url" value="https://github.com/iProgram22/PhysicsEmulator.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Z55041QSiMrHojFLoEthDlXNsA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.PhysicsEmulator [run].executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/PhysicsEmulator/src/main/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="physicsemulator.engine.collider" />
+      <recent name="physicsemulator.engine" />
+      <recent name="physicsemulator.physicalbody.rigidbody" />
+      <recent name="physicsemulator.rigidbody" />
+      <recent name="physicsemulator.bodies" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\PhysicsEmulator\src\main\java" />
+      <recent name="E:\Projects\PhysicsEmulator\theory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\PhysicsEmulator\theory" />
+      <recent name="E:\Projects\PhysicsEmulator\src\main\resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="physicsemulator.physics" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="physicsemulator.physicalbody" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PhysicsEmulator [run]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.divyansh.Main" />
+      <module name="PhysicsEmulator.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.divyansh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhysicsEmulator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhysicsEmulator [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PhysicsEmulator [run]" />
+        <item itemvalue="Gradle.PhysicsEmulator [build]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-249ae16d76d6-e0389a16" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4719ff98-efe1-45dc-bd59-6daa7a7611b2" name="Changes" comment="" />
+      <created>1701698873516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701698873516</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Material library imported">
+      <option name="closed" value="true" />
+      <created>1701701897969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701701897969</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Game loop added">
+      <option name="closed" value="true" />
+      <created>1701715823233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701715823233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rigid bodies added">
+      <option name="closed" value="true" />
+      <created>1701886244446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886244446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Todo done">
+      <option name="closed" value="true" />
+      <created>1701886299261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886299261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Intersection with line added">
+      <option name="closed" value="true" />
+      <created>1701978309281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701978309281</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Collision between Circle2D added">
+      <option name="closed" value="true" />
+      <created>1702119246981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702119246981</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added separating axis theorem">
+      <option name="closed" value="true" />
+      <created>1702137617586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702137617586</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added separating axis theorem for circle and polygon">
+      <option name="closed" value="true" />
+      <created>1702144194874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702144194874</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Collision resolution added">
+      <option name="closed" value="true" />
+      <created>1702645502564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702645502564</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I cant do collision detection">
+      <option name="closed" value="true" />
+      <created>1702995082818</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702995082819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Collision algorithm is still half broken :(">
+      <option name="closed" value="true" />
+      <created>1703328116444</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703328116444</updated>
+    </task>
+    <task id="LOCAL-00012" summary="COLLISION WORKS FINALLY">
+      <option name="closed" value="true" />
+      <created>1703342181324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703342181324</updated>
+    </task>
+    <task id="LOCAL-00013" summary="COLLISION WORKS FINALLY">
+      <option name="closed" value="true" />
+      <created>1703342214178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703342214178</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added camera">
+      <option name="closed" value="true" />
+      <created>1703369794892</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703369794892</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added camera">
+      <option name="closed" value="true" />
+      <created>1703412625883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703412625883</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added grid, multithreaded update and render methods.">
+      <option name="closed" value="true" />
+      <created>1703620221373</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703620221373</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed nothing, ruined everything">
+      <option name="closed" value="true" />
+      <created>1703695062955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703695062955</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed nothing, ruined everything">
+      <option name="closed" value="true" />
+      <created>1703702584267</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703702584267</updated>
+    </task>
+    <task id="LOCAL-00019" summary="conservation laws? I cant conserve anything">
+      <option name="closed" value="true" />
+      <created>1703833069148</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703833069148</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Removed singleton pattern.">
+      <option name="closed" value="true" />
+      <created>1704277074823</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704277074823</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Material library imported" />
+    <MESSAGE value="Game loop added" />
+    <MESSAGE value="Rigid bodies added" />
+    <MESSAGE value="Todo done" />
+    <MESSAGE value="Intersection with line added" />
+    <MESSAGE value="Collision between Circle2D added" />
+    <MESSAGE value="Added separating axis theorem" />
+    <MESSAGE value="Added separating axis theorem for circle and polygon" />
+    <MESSAGE value="Collision resolution added" />
+    <MESSAGE value="I cant do collision detection" />
+    <MESSAGE value="Collision algorithm is still half broken :(" />
+    <MESSAGE value="COLLISION WORKS FINALLY" />
+    <MESSAGE value="Added camera" />
+    <MESSAGE value="Added grid, multithreaded update and render methods." />
+    <MESSAGE value="Fixed nothing, ruined everything" />
+    <MESSAGE value="conservation laws? I cant conserve anything" />
+    <MESSAGE value="Removed singleton pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed singleton pattern." />
+  </component>
+</project>
