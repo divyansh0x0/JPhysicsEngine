@@ -13,14 +13,12 @@ import physicsemulator.engine.RigidBodyModel;
 import physicsemulator.physicalbody.RigidObject;
 import physicsemulator.engine.Engine;
 import physicsemulator.engine.Scene;
-import physicsemulator.physicalbody.rigidbody.Circle2D;
 import physicsemulator.physicalbody.rigidbody.Rectangle2D;
 import physicsemulator.utils.Vector2D;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.concurrent.CompletableFuture;
 
 /**
  * READ ME
@@ -102,15 +100,7 @@ public class Main {
         wall2.setStatic(true);
         wall3.setStatic(true);
         wall4.setStatic(true);
-//        obj1.setForce(new Vector2D(0, -100));
-
-//        obj1.setLinearVelocity(new Vector2D(10, -100));
-//        physicsEngine.setPlayer(obj1);
-//        addObj(obj1);
-        addObj(wall1, wall2, wall3, wall4);
-//        addCircles();
-        addSquares();
-//        physicsEngine.registerRigidWall(new RigidWall(new Vector2D(0,0),new Vector2D(1920,100), ThemeColors.getInstance().getColorByElevation(ElevationDP._24)));
+        addRigidObjects(wall1, wall2, wall3, wall4);
 
 
         materialWindow.addWindowListener(new WindowAdapter() {
@@ -130,7 +120,7 @@ public class Main {
     }
 
 
-    private static void addObj(RigidBodyModel... objects) {
+    private static void addRigidObjects(RigidBodyModel... objects) {
         for (RigidBodyModel obj : objects)
             physicsEngine.registerPhysicsObject(obj);
     }
